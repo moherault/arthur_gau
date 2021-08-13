@@ -1,0 +1,90 @@
+*{
+    /* border: solid red 1px; */
+    margin: 0;
+    box-sizing: border-box;
+    outline: none; 
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+a:active{
+    color: black;
+}
+
+.arriereplan-p1{
+    background: url(images-ag/arthur-gau-accueil-06.jpg) center/cover no-repeat;
+    height: 100vh;
+    width: auto;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+h1{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 80;
+    font-size: 1100%;
+}
+
+.nav-barre{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    letter-spacing: 1px;
+}
+
+.boutons{
+    display: flex;
+}
+
+h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 200%;
+    font-weight: lighter;
+}
+/* ------REGLER L'ESPACE ENTRE LES BOUTONS--------- */
+
+.titre-infos{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 600%;
+    font-weight: lighter;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+.container-infos{
+    margin: 30px;
+    padding: 4px;
+    padding-bottom: 60px;
+}
+
+.informations{ 
+    font-family: 'Barlow', sans-serif;
+    font-size: 180%;
+    font-weight: 200%;
+    padding-left: 25%;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+.container-actu{
+    display: flex;
+    justify-content: flex-end;
+    border: red solid 1px;
+}
+
+.titre-actu{
+    justify-content: flex-end;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 600%;
+    font-weight: lighter;
+    padding-right: 4%;
+    padding-left: 4%;   
+}
