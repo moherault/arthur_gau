@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    outline: none; 
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+a:active{
+    color: white;
+}
+
+.nav-barre-p2{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    letter-spacing: 1px;
+}
+
+.nav-barre-p3{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    letter-spacing: 1px; 
+}
+
+.boutons{
+    display: flex;
+}
+
+h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 200%;
+    font-weight: lighter;
+}
+
+.bt{
+    padding-right: 20px;
+}
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 600%;
+    font-weight: lighter;
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-top: 3%;
+}
+
+.arriereplan-p2{
+    background: url(images-ag/bc-godot.png) center/cover no-repeat;
+    height: 100vh;
+    width: auto;
+}
+
+.arriereplan-p3{
+    background: url(images-ag/bc-saisons.png) center/cover no-repeat;
+    height: 100vh;
+    width: auto;
+}
+
+.description-fr{
+    font-family: 'Barlow', sans-serif;
+    font-size: 180%;
+    font-weight: 200%;
+    padding-left: 25%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    text-align: left;
+}
+
+.description-en{
+    font-family: 'Barlow', sans-serif;
+    font-size: 180%;
+    font-weight: 200%;
+    padding-left: 25%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    text-align: right;
+}
+
+.ancre{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+footer{
+    font-family: 'Barlow', sans-serif;
+    font-size: 100%;
+    font-weight: 200%;
+    display: flex;
+    justify-content: space-around; 
+    margin-bottom: 5vh;
+}
+

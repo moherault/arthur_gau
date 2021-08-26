@@ -135,6 +135,8 @@ h2{
     padding-right: 30px;
 }
 
+/* -------Page 2--------- */
+
 footer{
     font-family: 'Barlow', sans-serif;
     font-size: 100%;
@@ -144,9 +146,5 @@ footer{
     margin-bottom: 5vh;
 }
 
-.arriereplan-p2{
-    background: url(images-ag/border-godot.png) center/cover no-repeat;
-    height: 100vh;
-    width: auto;
-}
+
 
