@@ -19,13 +19,19 @@ a:active{
     justify-content: space-between;
     padding: 2%;
     letter-spacing: 1px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
 }
 
 .nav-barre-p3{
     display: flex;
     justify-content: space-between;
     padding: 2%;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
 }
 
 .boutons{

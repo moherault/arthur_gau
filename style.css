@@ -38,6 +38,9 @@ h1{
     justify-content: space-between;
     padding: 2%;
     letter-spacing: 1px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
 }
 
 .boutons{
