@@ -132,6 +132,7 @@ footer{
 @media (max-width:1025px) {
     h1{
         font-size: 800%;
+    }
 }
 
 @media (max-width:800px) {
@@ -153,13 +154,40 @@ footer{
     h2{
         writing-mode: vertical-rl;
         text-orientation: sideways-right;
+        padding: none;
     }
 
 
 }
 
-@media (max-width:414px) {
+@media (max-width:500px){
     h1{
         font-size: 300%;
+        padding: 0%;
     }
+
+    .container-infos{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+                                
+    }
+
+    .description-serie{
+        font-size: 120%;
+        padding-left: 15%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+    }
+
+    .container-contact{
+        display: flex;
+    }
+
+    
+
+}
+
+@media (max-width:300px){
+    
 }
