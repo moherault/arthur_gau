@@ -80,26 +80,6 @@ h2{
     padding-bottom: 5%;
 }
 
-.description-fr{
-    font-family: 'Barlow', sans-serif;
-    font-size: 180%;
-    font-weight: 200%;
-    padding-left: 25%;
-    padding-right: 10%;
-    padding-bottom: 5%;
-    text-align: left;
-}
-
-.description-en{
-    font-family: 'Barlow', sans-serif;
-    font-size: 180%;
-    font-weight: 200%;
-    padding-left: 25%;
-    padding-right: 10%;
-    padding-bottom: 5%;
-    text-align: right;
-}
-
 .container-actu{
     display: flex;
     justify-content: flex-end;
@@ -138,8 +118,6 @@ h2{
     padding-right: 30px;
 }
 
-/* -------Page 2--------- */
-
 footer{
     font-family: 'Barlow', sans-serif;
     font-size: 100%;
@@ -149,5 +127,39 @@ footer{
     margin-bottom: 5vh;
 }
 
+/* ---------RESPONSIVE---------- */
+
+@media (max-width:1025px) {
+    h1{
+        font-size: 800%;
+}
+
+@media (max-width:800px) {
+    h1{
+        font-size: 500%;
+    }
+
+    .arriereplan-p1{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .nav-barre{
+        display: none;
+        /* AJOUT DU BURGER */
+    }
+
+    h2{
+        writing-mode: vertical-rl;
+        text-orientation: sideways-right;
+    }
 
 
+}
+
+@media (max-width:414px) {
+    h1{
+        font-size: 300%;
+    }
+}
