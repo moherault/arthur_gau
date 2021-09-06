@@ -41,6 +41,7 @@ h1{
     position: -webkit-sticky;
     position: sticky;
     top: 20px;
+    background: white;
 }
 
 .boutons{
@@ -157,6 +158,10 @@ footer{
         padding: none;
     }
 
+    .container-contact{
+        display: flex;
+    }
+
 
 }
 
@@ -166,28 +171,41 @@ footer{
         padding: 0%;
     }
 
+    h2{
+        font-size: 250%;
+    }
+
     .container-infos{
         display: flex;
         justify-content: flex-start;
-        align-items: flex-end;
-                                
+        align-items: flex-start;                         
     }
 
     .description-serie{
-        font-size: 120%;
-        padding-left: 15%;
-        padding-right: 5%;
-        padding-bottom: 5%;
+        font-size: 110%;
+        padding: 0%;
+        
     }
 
     .container-contact{
         display: flex;
     }
 
-    
-
 }
 
 @media (max-width:300px){
     
+}
+
+@media (max-width:246px){
+    h2{
+        writing-mode: horizontal-tb;
+        text-orientation: sideways-right;
+        padding: none;
+    }
+
+    .container-infos{
+        display: flex;
+        flex-direction: column;
+    }
 }
