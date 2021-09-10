@@ -162,7 +162,15 @@ footer{
         display: flex;
     }
 
-
+    .container-contact p{
+        font-family: 'Barlow', sans-serif;
+        font-size: 180%;
+        font-weight: 200%;
+        padding-left: 0;
+        padding-right: 10%;
+        padding-bottom: 50px;
+        text-align: justify;
+    }
 }
 
 @media (max-width:500px){
@@ -175,20 +183,33 @@ footer{
         font-size: 250%;
     }
 
+    .titre-actu{
+        font-size: 250%;
+    }
+
+    .titre-contact{
+        font-size: 250%;
+    }
+
     .container-infos{
         display: flex;
         justify-content: flex-start;
-        align-items: flex-start;                         
+        align-items: flex-start;
+        padding-bottom: 4px;
     }
 
     .description-serie{
         font-size: 110%;
         padding: 0%;
-        
     }
 
     .container-contact{
         display: flex;
+    }
+
+    p.p-contact{
+        font-size: 80%;
+        padding-right: 0%;
     }
 
 }
@@ -198,14 +219,44 @@ footer{
 }
 
 @media (max-width:246px){
-    h2{
+    .titre-infos{
         writing-mode: horizontal-tb;
         text-orientation: sideways-right;
         padding: none;
     }
 
+    .titre-actu{
+        writing-mode: horizontal-tb;
+        text-orientation: sideways-right;
+        padding: none;
+    }
+
+    .titre-contact{
+        writing-mode: horizontal-tb;
+        text-orientation: sideways-right;
+        padding: none;    
+    }
+
     .container-infos{
         display: flex;
         flex-direction: column;
+    }
+
+    .container-actu{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+
+    .container-contact{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+
+    }
+
+    p.p-contact{
+        font-size: 60%;
+        padding-right: 0%;
     }
 }
