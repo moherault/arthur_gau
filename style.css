@@ -11,7 +11,6 @@
 body{
    margin: 0;
    padding: 0;
-   font-family: "Avenir Next", "Avenir", sans-serif;
 }
  
 #menuToggle{
@@ -286,6 +285,10 @@ footer{
         padding-right: 10%;
         padding-bottom: 50px;
         text-align: justify;
+    }
+
+    footer{
+        font-size: 40%;
     }
 }
 
