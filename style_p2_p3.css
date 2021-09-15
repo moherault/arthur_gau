@@ -6,6 +6,11 @@
     text-decoration: none;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 a:visited{
     color: white;
 }
@@ -93,11 +98,54 @@ h2{
     text-align: right;
 }
 
-img{
-    max-width: auto;
-    max-height: auto;
+/* --------PROPRIÉTÉ DES IMAGES C'EST BON NE PAS TOUCHER--------- */
+
+/* img{
+    width: 100%;
+    height: auto;
+} */
+
+/* --------PROPRIÉTÉ DES IMAGES C'EST BON NE PAS TOUCHER--------- */
+
+
+
+/* ---------ATTENTION C'EST TIPAR POUR LE SCROLLING X-------- */
+
+
+.slide {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
 }
 
+
+.bloc-horizontal-saison {
+    display: flex;
+    flex-direction: row;
+    width: 400vw;
+    transform: rotate(90deg) translateY(-90vh);
+    transform-origin: top left;
+}
+.container-img-saison {
+    margin: 0;
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh); 
+    transform-origin: top left;
+    overflow-x: hidden;
+
+    /* pour ie et mozilla */
+    -ms-overlow-style: none;
+    scrollbar-width: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* --------- END ATTENTION C'EST TIPAR POUR LE SCROLLING X-------- */
 .ancre{
     display: flex;
     justify-content: flex-end;
@@ -133,7 +181,6 @@ footer{
     h2{
         font-size: 250%;
     }
-
 /* ---------BURGER-------- */
 
 }
