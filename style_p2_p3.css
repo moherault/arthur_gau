@@ -93,33 +93,37 @@ h2{
     text-align: right;
 }
 
+/* --------- /////////////START SCROLLING X PAGE 2\\\\\\\\\\\\\\\\------- */
 
-/* --------- START SCROLLING X PAGE 3-------- */
-
-body {
-    margin: 0;
-    padding: 0;
+figcaption{
+    display: none;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    color: black;
 }
 
 .slide {
-    width: 100vw;
-    height: 100vh;
+    width: 300vw;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 15px;
 }
 
-.bloc-horizontal-saison {
+
+.bloc-horizontal-godot {
     display: flex;
     flex-direction: row;
     width: 400vw;
     transform: rotate(90deg) translateY(-90vh);
     transform-origin: top left;
 }
-.container-img-saison {
+.container-img-godot {
     margin: 0;
+    padding-top: 0;
     width: 100vh;
-    height: 100vw;
+    height: 200vw;
     transform: rotate(-90deg) translateX(-100vh); 
     transform-origin: top left;
     overflow-x: scroll;
@@ -131,7 +135,35 @@ body {
     display: none;
 }
 
-/* --------- END SCROLLING X PAGE 3-------- */
+/* ------//////////////END SCROLLING X PAGE 2\\\\\\\\\\\\\\-------- */
+
+
+/* ---------////////////START SCROLLING X PAGE 3\\\\\\\\\\\\\-------- */
+
+.bloc-horizontal-saison {
+    display: flex;
+    flex-direction: row;
+    width: 400vw;
+    transform: rotate(90deg) translateY(-90vh);
+    transform-origin: top left;
+}
+.container-img-saison {
+    margin: 0;
+    padding-top: 0;
+    width: 100vh;
+    height: 200vw;
+    transform: rotate(-90deg) translateX(-100vh); 
+    transform-origin: top left;
+    overflow-x: scroll;
+    -ms-overlow-style: none;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* --------- ///////////END SCROLLING X PAGE 3\\\\\\\\\\\\-------- */
 
 .ancre{
     display: flex;
@@ -144,7 +176,7 @@ footer{
     font-size: 100%;
     font-weight: 200%;
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
     margin-bottom: 5vh;
 }
 
