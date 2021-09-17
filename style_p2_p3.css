@@ -94,7 +94,7 @@ h2{
     text-align: right;
 }
 
-/* --------- /////////////START SCROLLING X PAGE 2\\\\\\\\\\\\\\\\------- */
+
 
 figcaption{
     display: none;
@@ -102,6 +102,10 @@ figcaption{
     font-size: 20px;
     color: black;
 }
+
+@media (min-width:1025px){
+
+/* --------- /////////////START SCROLLING X PAGE 2\\\\\\\\\\\\\\\\------- */
 
 .slide {
     width: 300vw;
@@ -136,6 +140,8 @@ figcaption{
     display: none;
 }
 
+
+
 /* ------//////////////END SCROLLING X PAGE 2\\\\\\\\\\\\\\-------- */
 
 
@@ -164,6 +170,8 @@ figcaption{
     display: none;
 }
 
+}
+
 /* --------- ///////////END SCROLLING X PAGE 3\\\\\\\\\\\\-------- */
 
 .ancre{
@@ -180,6 +188,11 @@ footer{
     justify-content: space-around;
     margin-bottom: 5vh;
 }
+
+
+
+/* --------////////RESPONSIVE////////------- */
+
 
 @media (max-width:600px){
     .nav-barre-p2{
