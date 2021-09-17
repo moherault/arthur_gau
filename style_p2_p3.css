@@ -116,7 +116,6 @@ figcaption{
     padding: 0 15px;
 }
 
-
 .bloc-horizontal-godot {
     display: flex;
     flex-direction: row;
@@ -139,8 +138,6 @@ figcaption{
 ::-webkit-scrollbar {
     display: none;
 }
-
-
 
 /* ------//////////////END SCROLLING X PAGE 2\\\\\\\\\\\\\\-------- */
 
@@ -193,6 +190,11 @@ footer{
 
 /* --------////////RESPONSIVE////////------- */
 
+@media(max-width:1025px){
+    .slide-18sb{
+        display: none;
+    }
+}
 
 @media (max-width:600px){
     .nav-barre-p2{
