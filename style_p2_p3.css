@@ -94,8 +94,6 @@ h2{
     text-align: right;
 }
 
-
-
 figcaption{
     display: none;
     font-family: 'Barlow', sans-serif;
@@ -103,13 +101,15 @@ figcaption{
     color: black;
 }
 
-@media (min-width:1025px){
+/* -----visiblement c'est ici le problème de la taille des images au scroll horizontal------ */
+
+/* @media (max-width:1025px){ */
 
 /* --------- /////////////START SCROLLING X PAGE 2\\\\\\\\\\\\\\\\------- */
 
 .slide {
-    width: 300vw;
-    height: 60vh;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,14 +120,14 @@ figcaption{
     display: flex;
     flex-direction: row;
     width: 400vw;
-    transform: rotate(90deg) translateY(-90vh);
+    transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
 }
 .container-img-godot {
     margin: 0;
     padding-top: 0;
     width: 100vh;
-    height: 200vw;
+    height: 100vw;
     transform: rotate(-90deg) translateX(-100vh); 
     transform-origin: top left;
     overflow-x: scroll;
@@ -155,7 +155,7 @@ figcaption{
     margin: 0;
     padding-top: 0;
     width: 100vh;
-    height: 200vw;
+    height: 100vw;
     transform: rotate(-90deg) translateX(-100vh); 
     transform-origin: top left;
     overflow-x: scroll;
@@ -167,7 +167,7 @@ figcaption{
     display: none;
 }
 
-}
+/* } */
 
 /* --------- ///////////END SCROLLING X PAGE 3\\\\\\\\\\\\-------- */
 
@@ -187,14 +187,7 @@ footer{
 }
 
 
-
 /* --------////////RESPONSIVE////////------- */
-
-@media(max-width:1025px){
-    .slide-18sb{
-        display: none;
-    }
-}
 
 @media (max-width:600px){
     .nav-barre-p2{
