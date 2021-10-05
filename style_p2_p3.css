@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+body{
+    background: red;
+}
+
 
 a:visited{
     color: white;
@@ -103,13 +107,13 @@ figcaption{
 
 /* -----visiblement c'est ici le problème de la taille des images au scroll horizontal------ */
 
-/* @media (max-width:1025px){ */
+@media (min-width:1025px){
 
 /* --------- /////////////START SCROLLING X PAGE 2\\\\\\\\\\\\\\\\------- */
 
 .slide {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,16 +122,14 @@ figcaption{
 
 .bloc-horizontal-godot {
     display: flex;
-    flex-direction: row;
     width: 400vw;
+    flex-direction: row;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
 }
 .container-img-godot {
     margin: 0;
     padding-top: 0;
-    width: 100vh;
-    height: 100vw;
     transform: rotate(-90deg) translateX(-100vh); 
     transform-origin: top left;
     overflow-x: scroll;
@@ -151,11 +153,11 @@ figcaption{
     transform: rotate(90deg) translateY(-90vh);
     transform-origin: top left;
 }
+
 .container-img-saison {
     margin: 0;
     padding-top: 0;
     width: 100vh;
-    height: 100vw;
     transform: rotate(-90deg) translateX(-100vh); 
     transform-origin: top left;
     overflow-x: scroll;
@@ -167,7 +169,7 @@ figcaption{
     display: none;
 }
 
-/* } */
+}
 
 /* --------- ///////////END SCROLLING X PAGE 3\\\\\\\\\\\\-------- */
 
