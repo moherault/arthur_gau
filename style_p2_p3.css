@@ -6,6 +6,11 @@
     margin: 0;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
  
 #menuToggle{
     display: block;
@@ -115,7 +120,7 @@ a:active{
 }
 
 li{
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Debas', sans-serif;
 }
 
 .nav-barre-p2{
@@ -322,6 +327,14 @@ footer{
     .ancre{
         display: none;
     }
-/* ---------BURGER-------- */
+
+    .burger{
+        display: block;
+    }
+
+    #menuToggle span{
+        opacity: 1;
+    }
+
 
 }
