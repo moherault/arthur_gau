@@ -11,29 +11,30 @@ body{
     padding: 0;
 }
 
- 
+/* BURGER START  */
+
 #menuToggle{
     display: block;
     position: fixed;
-    top: 140px;
+    top: 10px;
     left: 10px; 
     z-index: 1; 
     -webkit-user-select: none;
     user-select: none;
  }
   
- #menuToggle a{
+#menuToggle a{
     text-decoration: none;
     color: #232323;
     font-family: 'Bebas Neue', cursive;
     transition: color 0.3s ease;
  }
   
- #menuToggle a:hover{
+#menuToggle a:hover{
     color: grey;
  }
   
- #menuToggle input{
+#menuToggle input{
     display: block;
     width: 40px;
     height: 32px;
@@ -46,7 +47,7 @@ body{
     -webkit-touch-callout: none;
  }
   
- #menuToggle span{
+#menuToggle span{
     display: block;
     width: 33px;
     height: 4px;
@@ -62,21 +63,21 @@ body{
                 opacity 0.55s ease;
  }
   
- #menuToggle span:first-child{
+#menuToggle span:first-child{
     transform-origin: 0% 0%;
  }
   
- #menuToggle span:nth-last-child(2){
+#menuToggle span:nth-last-child(2){
     transform-origin: 0% 100%;
  }
  
- #menuToggle input:checked ~ span{
+#menuToggle input:checked ~ span{
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: #232323;
  }
   
- #menuToggle input:checked ~ span:nth-last-child(3){
+#menuToggle input:checked ~ span:nth-last-child(3){
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
  }
@@ -85,7 +86,7 @@ body{
     transform: rotate(-45deg) translate(0, -1px);
  }
   
- #menu{
+#menu{
     position: absolute;
     width: 230px;
     margin: -50px 0 0 -50px;
@@ -99,16 +100,16 @@ body{
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
  }
   
- #menu li{
+#menu li{
     padding: 10px 0;
     font-size: 22px;
  }
  
- #menuToggle input:checked ~ ul{
+#menuToggle input:checked ~ ul{
      transform: none;
  }
  
-
+/* BURGER END */
 
 
 a:visited{
@@ -120,7 +121,7 @@ a:active{
 }
 
 li{
-    font-family: 'Debas', sans-serif;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .nav-barre-p2{
@@ -208,7 +209,6 @@ h2{
 }
 
 figcaption{
-    display: none;
     font-family: 'Barlow', sans-serif;
     font-size: 20px;
     color: black;
@@ -218,7 +218,6 @@ figcaption{
 @media (min-width:1025px){
 
 /* --------- /////////////START SCROLLING X PAGE 2\\\\\\\\\\\\\\\\------- */
-
 
 .slide {
     width: 100vw;
@@ -264,7 +263,7 @@ figcaption{
 }
 
 .container-img-saison {
-    width: 100vh;
+    width: 90vh;
     height: 100vw;
     transform: rotate(-90deg) translateX(-100vh); 
     transform-origin: top left;
@@ -284,6 +283,14 @@ figcaption{
 
 /* --------- ///////////END SCROLLING X PAGE 3\\\\\\\\\\\\-------- */
 
+.ancre img{
+    width: 60%;
+}
+
+.ancre{
+    margin: 0;
+    padding-top: 10px;
+}
 
 footer{
     font-family: 'Barlow', sans-serif;
@@ -297,6 +304,51 @@ footer{
 
 
 /* --------////////RESPONSIVE////////------- */
+/* RESPONSIVE TABLETTE START */
+
+@media (max-width:1024px) {
+
+    .nav-barre-p2{
+        display: none;
+    }
+
+    .nav-barre-p3{
+        display: none;
+    }
+
+    .informations{
+        font-size: 100%;
+    }
+
+    footer{
+        font-size: 40%;
+    }
+
+    h2{
+        font-size: 350%;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+    figcaption{
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    #menuToggle span{
+        opacity: 1;
+    }
+
+}
+
+/* RESPONSIVE TABLETTE END */
 
 @media (max-width:600px){
     .nav-barre-p2{
@@ -322,6 +374,11 @@ footer{
     img{
         width: 100%;
         height: auto;
+    }
+
+    figcaption{
+        font-size: 10px;
+        padding: 10px;
     }
 
     .ancre{
