@@ -263,7 +263,7 @@ figcaption{
 }
 
 .container-img-saison {
-    width: 90vh;
+    width: 100vh;
     height: 100vw;
     transform: rotate(-90deg) translateX(-100vh); 
     transform-origin: top left;
@@ -284,13 +284,9 @@ figcaption{
 /* --------- ///////////END SCROLLING X PAGE 3\\\\\\\\\\\\-------- */
 
 .ancre img{
-    width: 60%;
+    width: 30%;
 }
 
-.ancre{
-    margin: 0;
-    padding-top: 10px;
-}
 
 footer{
     font-family: 'Barlow', sans-serif;
@@ -381,16 +377,19 @@ footer{
         padding: 10px;
     }
 
-    .ancre{
-        display: none;
-    }
-
     .burger{
         display: block;
     }
 
     #menuToggle span{
         opacity: 1;
+    }
+
+    .ancre{
+        padding: 0px 0px 0px 0px;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0px;
     }
 
 

@@ -220,13 +220,13 @@ h2{
 }
 
 .ancre img{
-    width: 60%;
+    width: 30%;
 }
 
 .ancre{
     display: flex;
     justify-content: flex-end;
-    padding-right: 30px;
+    padding-right: 10px;
 }
 
 footer{
@@ -296,6 +296,21 @@ footer{
     footer{
         font-size: 40%;
     }
+}
+
+/* ////////START RESPONSIVE/////////// */
+
+@media (max-width:812px){
+    .informations{
+        font-size: 110%;
+    }
+
+    p.p-contact{
+        font-size: 100%;
+    }
+
+
+
 }
 
 @media (max-width:500px){
