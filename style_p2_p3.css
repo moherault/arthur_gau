@@ -208,20 +208,36 @@ h2{
     text-align: right;
 }
 
+
 figcaption{
     font-family: 'Barlow', sans-serif;
     font-size: 20px;
     color: black;
 }
 
+/* --------- /////////////START SCROLLING X PAGE 2\\\\\\\\\\\\\\\\------- */
 
 @media (min-width:1025px){
 
-/* --------- /////////////START SCROLLING X PAGE 2\\\\\\\\\\\\\\\\------- */
-
-.slide {
+.slide{
     width: 100vw;
     height: 100vh;
+}
+
+figure{
+    position: relative;
+    display: table;
+    padding-bottom: 80px;
+}
+
+figcaption{
+    display: table-caption;
+    caption-side: bottom;
+    position: absolute;
+    bottom: 0;
+    margin-left: 30px;
+    margin-bottom: 80px;
+    text-align: left;
 }
 
 .bloc-horizontal-godot {
@@ -242,17 +258,12 @@ figcaption{
     position: absolute;
     -ms-overlow-style: none;
     scrollbar-width: none;
+    padding-left: 30px;
 }
 
 ::-webkit-scrollbar {
     display: none;
 }
-
-
-/* ------//////////////END SCROLLING X PAGE 2\\\\\\\\\\\\\\-------- */
-
-
-/* ---------////////////START SCROLLING X PAGE 3\\\\\\\\\\\\\-------- */
 
 .bloc-horizontal-saison {
     display: flex;
@@ -284,7 +295,7 @@ figcaption{
 /* --------- ///////////END SCROLLING X PAGE 3\\\\\\\\\\\\-------- */
 
 .ancre img{
-    width: 30%;
+    width: 27%;
 }
 
 
