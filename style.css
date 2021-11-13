@@ -4,8 +4,6 @@
     outline: none; 
     text-decoration: none;
 }
- 
-
 
 body{
    margin: 0;
@@ -117,6 +115,14 @@ a:visited{
 }
 
 a:active{
+    color: black;
+}
+
+a:link{
+    color: black;
+}
+
+a:hover{
     color: black;
 }
 

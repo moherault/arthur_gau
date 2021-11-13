@@ -120,6 +120,14 @@ a:active{
     color: white;
 }
 
+a:hover{
+    color: white;
+}
+
+a:link{
+    color: white;
+}
+
 li{
     font-family: 'Bebas Neue', cursive;
 }
@@ -213,11 +221,13 @@ figcaption{
     font-family: 'Barlow', sans-serif;
     font-size: 20px;
     color: black;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 /* --------- /////////////START SCROLLING X PAGE 2\\\\\\\\\\\\\\\\------- */
 
-@media (min-width:1025px){
+/* @media (min-width:1025px){
 
 .slide{
     width: 100vw;
@@ -290,14 +300,27 @@ figcaption{
     display: none;
 }
 
-}
+} */
 
 /* --------- ///////////END SCROLLING X PAGE 3\\\\\\\\\\\\-------- */
 
-.ancre img{
-    width: 27%;
+
+img{
+    width: 100%;
+    height: auto;
 }
 
+.ancre img{
+    width: 40%;
+}
+
+.triangle{
+    width: 18px;
+}
+
+.trianglebis{
+    width: 18px;
+}
 
 footer{
     font-family: 'Barlow', sans-serif;
@@ -401,6 +424,10 @@ footer{
         display: flex;
         justify-content: flex-end;
         margin: 0px;
+    }
+
+    .ancre img{
+        width: 30%;
     }
 
 
