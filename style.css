@@ -126,6 +126,8 @@ a:hover{
     color: black;
 }
 
+
+
 .arriereplan-p1{
     background: url(images-ag/arthur-gau-accueil-06.jpg) center/cover no-repeat;
     height: 100vh;
@@ -216,7 +218,7 @@ h2{
 }
 
 .container-contact p{
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
     font-size: 180%;
     font-weight: 200%;
     padding-left: 35%;
@@ -236,7 +238,7 @@ h2{
 }
 
 footer{
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
     font-size: 100%;
     font-weight: 200%;
     display: flex;
@@ -290,7 +292,7 @@ footer{
     }
 
     .container-contact p{
-        font-family: 'Barlow', sans-serif;
+        font-family: 'Barlow Condensed', sans-serif;
         font-size: 180%;
         font-weight: 200%;
         padding-left: 0;
